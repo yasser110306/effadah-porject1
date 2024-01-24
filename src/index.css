@@ -25,7 +25,11 @@
 }
 
 #overlay {
-  background: linear-gradient(-135deg, #876513 0%, #4a1714 100%);
-  opacity: 0.70;
+  background: linear-gradient(
+    -135deg,
+    hsla(42, 75%, 30%, 0.7) 0%,
+    hsla(3, 57%, 18%, 0.7) 100%
+  );
+
   z-index: 1;
 }
