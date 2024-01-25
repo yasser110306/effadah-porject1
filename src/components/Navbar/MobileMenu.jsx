@@ -17,7 +17,7 @@ function MobileMenu() {
   return (
     <div
       id="menu-mobile-container"
-      className=" list-none flex  lg:hidden self-start  flex-col items-end"
+      className=" list-none flex  lg:hidden self-start  flex-col items-end z-30"
     >
       <Menu
         size={30}

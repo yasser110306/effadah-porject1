@@ -5,7 +5,7 @@ import InfoandBtns from "./InfoandBtns";
 
 function Navbar() {
   return (
-    <div className=" container relative py-5 p-4 w-full flex gap-5 lg:items-stretch h-40 z-20 justify-between items-center ">
+    <div className=" container relative py-5 p-4 w-full flex gap-5 lg:items-stretch h-40  justify-between items-center z-50 ">
       <InfoandBtns />
       <NavbarLinks />
       <img src={coloredLogo} alt="logo" className=" w-28 hidden lg:block" />
