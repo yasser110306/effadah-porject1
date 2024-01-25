@@ -14,22 +14,54 @@
   padding-right: 15px;
 }
 
+/* start home page & navbar */
+
 #hero-section {
   background-image: url(assets/hero-sec-bg.jpeg);
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: calc(100vh - 5rem);
+  height: 100vh;
   width: 100%;
+  position: relative;
 }
-
-#overlay {
+#hero-section::after {
+  content: "";
   background: linear-gradient(
     -135deg,
     hsla(42, 75%, 30%, 0.7) 0%,
     hsla(3, 57%, 18%, 0.7) 100%
   );
-
-  z-index: 1;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
 }
+
+#contact-nav > p {
+  display: flex;
+  gap: 5px;
+}
+
+#hero-logo {
+  width: 1000px;
+  left: -250px;
+  top: -100px;
+  z-index: 10;
+}
+
+#nav-menu > li {
+  padding: 10px 10px;
+}
+
+#nav-menu > li:hover {
+  color: #c89b2c;
+}
+
+#nav-menu > li:not(:last-of-type) {
+  border-bottom: 1px solid #eee;
+}
+
+/* end home page & navbar */
