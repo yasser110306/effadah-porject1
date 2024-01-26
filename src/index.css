@@ -65,3 +65,10 @@
 }
 
 /* end home page & navbar */
+
+/* extra sm screen */
+@media (min-width: 425px) {
+  #nav-menu {
+    position: static;
+  }
+}

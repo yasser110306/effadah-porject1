@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function MobileMenuLinks() {
   return (
     <ul
-      className=" text-right flex-col  bg-white py-2 px-5 rounded-lg flex "
+      className=" text-right flex-col  bg-white py-2 px-5 rounded-lg flex absolute top-20 w-full right-0   "
       id="nav-menu"
     >
       <li>
