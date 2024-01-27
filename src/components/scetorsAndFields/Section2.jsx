@@ -4,7 +4,7 @@ import KnowUs from "./KnowUs";
 
 function Section2() {
   return (
-    <div id="sectors" className=" m-32 relative">
+    <div id="sectors" className=" mt-32 relative">
       <div className="container">
         <Fields />
         <KnowUs />

@@ -7,11 +7,11 @@ function Field(props) {
   const FieldName = props.name;
   const customImg = props.customImg;
   return (
-    <div className="field flex flex-col items-center gap-4 bg-white p-10 relative rounded-2xl h-80 lg:w-1/4 overflow-hidden hover:scale-110 transition-all">
+    <div className="field flex flex-1  flex-col items-center gap-4 bg-white p-10 relative rounded-2xl sm-max:h-60 sm-max:w-full h-80 overflow-hidden hover:scale-110 transition-all">
       <div className=" absolute -right-10 -bottom-8 ">
         {customImg && <img src={customImg} alt="custom" />}
       </div>
-      <div className=" w-28 flex-1 items-center z-10">
+      <div className=" w-16 sm sm:w-28 flex-1 items-center z-10">
         <img src={FieldImg} alt={FieldImgAlt} />
       </div>
       <p className="z-10">{FieldName}</p>

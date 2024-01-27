@@ -3,7 +3,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 function ToggleBtns() {
   return (
-    <div className=" flex mt-7 gap-3 items-center">
+    <div className=" hidden xl:flex mt-7 gap-3 items-center">
       <div className="p-2 border rounded-md border-slate-300 text-slate-300 hover:text-secondry hover:border-primary cursor-pointer transition-all">
         <ChevronLeft />
       </div>

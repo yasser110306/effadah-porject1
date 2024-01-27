@@ -3,7 +3,7 @@ import { ArrowLeft } from "lucide-react";
 
 function SeeMore({ span1, span2, span3, noBtn, id }) {
   return (
-    <div className="flex flex-col gap-5">
+    <div className="hidden flex-col gap-5 md:flex">
       <h2 id={id} className="text-right text-5xl">
         <span className="block">{span1}</span>
         <span className="block">{span2}</span>
