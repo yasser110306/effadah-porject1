@@ -7,6 +7,7 @@ import field4Img from "../../assets/field4.png";
 import logoBg from "../../assets/customBg.png";
 import sec2bg from "../../assets/sec2bg.png";
 import SeeMore from "../reuse/SeeMore";
+import ToggleBtns from "../reuse/ToggleBtns";
 
 function Fields() {
   return (
@@ -30,8 +31,9 @@ function Fields() {
             name="عمالة منزلية بالساعة"
           />
         </div>
-        <SeeMore />
+        <SeeMore span1="مجالات" span2="وقطاعات" span3="الأعمال" />
       </div>
+      <ToggleBtns />
     </>
   );
 }

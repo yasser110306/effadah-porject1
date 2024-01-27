@@ -69,6 +69,36 @@
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.12);
 }
 
+.pros {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.12);
+}
+
+#sec2-know-us {
+  background: url(assets/knowusSec2.png);
+  z-index: -10;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#sec2-know-us::after {
+  content: "";
+  background: linear-gradient(
+    -135deg,
+    hsla(42, 75%, 30%, 0.8) 0%,
+    hsla(3, 57%, 18%, 0.8) 100%
+  );
+  position: absolute;
+  top: 0%;
+  border-radius: 25px;
+  z-index: -1;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+#know-us {
+  line-height: 1.3;
+}
+
 /* extra sm screen */
 @media (min-width: 425px) {
   #nav-menu {
