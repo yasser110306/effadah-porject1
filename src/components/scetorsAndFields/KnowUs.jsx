@@ -6,7 +6,6 @@ import pros3 from "../../assets/pros3.png";
 import pros4 from "../../assets/pros4.png";
 import whiteLogo from "../../assets/whiteLogo.png";
 import SeeMore from "../reuse/SeeMore";
-import bgImage from "../../assets/knowusSec2.png";
 
 function KnowUs() {
   return (
