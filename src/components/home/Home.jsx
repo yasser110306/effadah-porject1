@@ -3,6 +3,8 @@ import Navbar from "../Navbar/Navbar";
 import heroLogo from "../../assets/logo-hero.png";
 import HomePageInfo from "./HomePageInfo";
 import Section2 from "../scetorsAndFields/Section2";
+import Customers from "../newsAndCustomers/Customers";
+import News from "../newsAndCustomers/News";
 function Home() {
   return (
     // hero section start
@@ -20,6 +22,8 @@ function Home() {
       <div>
         <Section2 />
       </div>
+      <Customers />
+      <News />
     </>
   );
 }
