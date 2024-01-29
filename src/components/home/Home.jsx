@@ -6,6 +6,7 @@ import Section2 from "../scetorsAndFields/Section2";
 import Customers from "../newsAndCustomers/Customers";
 import News from "../newsAndCustomers/News";
 import Stats from "../StatsAndCommonQs/Stats";
+import CommonQs from "../StatsAndCommonQs/CommonQs";
 
 function Home() {
   return (
@@ -27,6 +28,7 @@ function Home() {
       <Customers />
       <News />
       <Stats />
+      <CommonQs />
     </>
   );
 }
