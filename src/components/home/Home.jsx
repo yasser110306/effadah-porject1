@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "../Navbar/Navbar";
 import heroLogo from "../../assets/logo-hero.png";
 import HomePageInfo from "./HomePageInfo";
 import Section2 from "../scetorsAndFields/Section2";
@@ -7,6 +6,7 @@ import Customers from "../newsAndCustomers/Customers";
 import News from "../newsAndCustomers/News";
 import Stats from "../StatsAndCommonQs/Stats";
 import CommonQs from "../StatsAndCommonQs/CommonQs";
+import ContactUs from "../contactUs/ContactUs";
 
 function Home() {
   return (
@@ -19,7 +19,6 @@ function Home() {
           id="hero-logo"
           className="opacity-5  absolute hidden lg:block "
         />
-        <Navbar />
         <HomePageInfo />
       </div>
       <div>
@@ -29,6 +28,7 @@ function Home() {
       <News />
       <Stats />
       <CommonQs />
+      <ContactUs />
     </>
   );
 }

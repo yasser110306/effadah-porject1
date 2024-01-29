@@ -4,8 +4,8 @@ import Question from "./Question";
 
 function CommonQs() {
   return (
-    <div className=" container mt-60 flex gap-20 items-center ">
-      <div className=" flex-1 flex flex-col gap-4">
+    <div className=" xl-max:mt-28 container mt-60 flex gap-20 items-center ">
+      <div className="   flex-1 flex flex-col gap-8 ">
         <Question />
         <Question />
         <Question />
