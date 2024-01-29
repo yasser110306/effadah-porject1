@@ -1,5 +1,4 @@
 import React from "react";
-import SeeMore from "../reuse/SeeMore";
 import { Youtube, Facebook, Instagram, Twitter } from "lucide-react";
 import appStoreLink from "../../assets/appStoreLink.png";
 import googlePlaylink from "../../assets/googlePlaylink.png";
