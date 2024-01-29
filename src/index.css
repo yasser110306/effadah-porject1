@@ -7,6 +7,10 @@
   font-family: "El Messiri";
 }
 
+body {
+  height: 6000px;
+}
+
 .container {
   margin-right: auto;
   margin-left: auto;
@@ -104,6 +108,67 @@
 
 .card {
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.12);
+}
+/* end agency and customers */
+/* start stats and common questions */
+
+#stats {
+  background-image: url(assets/hero-sec-bg.jpeg);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  height: 640px;
+  border-radius: 25px;
+}
+
+#stats::after {
+  background: linear-gradient(-57deg, #4a1714 0%, #c89b2c 100%);
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  border-radius: 25px;
+  height: 100%;
+  opacity: 0.8;
+}
+
+#state {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.12);
+  outline: solid 6px #ffffff7a;
+  outline-offset: 6px;
+  position: relative;
+  overflow: hidden;
+  transition: all 150ms ease;
+}
+#state:hover {
+  outline: solid 6px #fff;
+}
+
+#state::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #eee;
+  height: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border: 0px solid #f8f8f8;
+  transition: all 150ms ease;
+}
+
+#state:hover::after {
+  height: 50%;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: 20px solid #f8f8f8;
 }
 
 /* extra sm screen */

@@ -5,6 +5,8 @@ import HomePageInfo from "./HomePageInfo";
 import Section2 from "../scetorsAndFields/Section2";
 import Customers from "../newsAndCustomers/Customers";
 import News from "../newsAndCustomers/News";
+import Stats from "../StatsAndCommonQs/Stats";
+
 function Home() {
   return (
     // hero section start
@@ -24,6 +26,7 @@ function Home() {
       </div>
       <Customers />
       <News />
+      <Stats />
     </>
   );
 }

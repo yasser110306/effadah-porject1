@@ -7,6 +7,7 @@ module.exports = {
       fontFamily: {
         messery: ["El Messiri", "sans-serif"],
       },
+      fontSize: { "2l": "40px" },
       spacing: { cv: "1440px" },
       screens: {
         "2xl-max": { max: "1535px" },
