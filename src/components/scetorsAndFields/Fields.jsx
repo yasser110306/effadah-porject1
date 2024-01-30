@@ -15,7 +15,7 @@ function Fields() {
       <div className="-z-10 absolute -left-96 top-56 ">
         <img src={sec2bg} alt="hero-sec-logo" className="   hidden lg:block " />
       </div>
-      <div className="flex items-center gap-11 ">
+      <div  className="flex items-center gap-11 ">
         <div className="lg:grid-cols-2  xl:grid-cols-4  grid gap-5 flex-1 z-20">
           <Field image={field4Img} imageAlt="field1Img" name="القطاع الطبي" />
           <Field image={field3Img} imageAlt="field2Img" name="قطاع الأعمال" />

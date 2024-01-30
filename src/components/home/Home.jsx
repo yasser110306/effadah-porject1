@@ -7,12 +7,14 @@ import News from "../newsAndCustomers/News";
 import Stats from "../StatsAndCommonQs/Stats";
 import CommonQs from "../StatsAndCommonQs/CommonQs";
 import ContactUs from "../contactUs/ContactUs";
+import Navbar from "../Navbar/Navbar";
 
 function Home() {
   return (
     // hero section start
     <>
-      <div id="hero-section" className=" relative flex flex-col">
+      <Navbar />
+      <div id="hero-section" className=" relative flex flex-col pt-40">
         <img
           src={heroLogo}
           alt="hero-sec-logo"

@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Menu } from "lucide-react";
 import MobileMenuLinks from "./MobileMenuLinks";
 
-function MobileMenu() {
+function MobileMenu({ id }) {
   const [isOpened, setIsOpened] = useState(false);
 
   const handleMenu = () => {
@@ -15,17 +15,19 @@ function MobileMenu() {
   };
 
   return (
-    <div
-      id="menu-mobile-container"
-      className=" list-none flex  lg:hidden self-start  flex-col items-end z-30"
-    >
-      <Menu
-        size={30}
-        className=" text-white hover:text-primary hover:cursor-pointer"
-        id="menu-active-btn"
-        onClick={handleMenu}
-      />
-      {isOpened && <MobileMenuLinks />}
+    <div id={id} className=" flex-1 lg:hidden">
+      <div
+        id="menu-mobile-container"
+        className=" list-none flex  lg:hidden self-start  flex-col items-end z-30"
+      >
+        <Menu
+          size={30}
+          className=" text-white hover:text-primary hover:cursor-pointer"
+          id="menu-active-btn"
+          onClick={handleMenu}
+        />
+        {isOpened && <MobileMenuLinks />}
+      </div>
     </div>
   );
 }

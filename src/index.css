@@ -7,6 +7,10 @@
   font-family: "El Messiri";
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   margin-right: auto;
   margin-left: auto;
@@ -61,6 +65,40 @@
 
 #nav-menu > li:not(:last-of-type) {
   border-bottom: 1px solid #eee;
+}
+
+#nav-bar-btns > div > p {
+  color: #4a1714;
+}
+
+#nav-bar-btns > div svg {
+  color: #c89b2c;
+}
+
+#nav-bar-btns #log-sign-btns a:first-of-type > button {
+  border-color: #4a1714;
+  color: #4a1714;
+}
+
+#nav-bar-links {
+  color: #000;
+  flex: 1;
+}
+
+#nav-bar-links-mobile {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+@media (min-width: 1024px) {
+  #nav-bar-links-mobile {
+    display: none;
+  }
+}
+
+#nav-bar-links-mobile svg {
+  color: #000;
 }
 
 /* end home page & navbar */
@@ -227,6 +265,11 @@
 
 .copy-right {
   color: #7c878e;
+}
+
+#signIn-see-more {
+  font-size: 30px;
+  font-weight: 700;
 }
 
 /* extra sm screen */

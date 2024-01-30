@@ -9,7 +9,7 @@ import SeeMore from "../reuse/SeeMore";
 
 function KnowUs() {
   return (
-    <div className=" mt-24 relative flex justify-end items-center">
+    <div id="knowUs" className=" mt-24 relative flex justify-end items-center">
       <div className=" flex items-center">
         <div className="pros bg-white w-1/2  left-0 z-10  p-8 rounded-2xl flex flex-col items-end text-right gap-10 absolute xl-max:static  xl-max:w-full xl-max:items-center">
           <p className=" w-3/4">

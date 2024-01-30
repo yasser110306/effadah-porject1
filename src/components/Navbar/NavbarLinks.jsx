@@ -1,33 +1,33 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import MobileMenu from "./MobileMenu";
-function NavbarLinks() {
+function NavbarLinks({ id }) {
   return (
     <>
       <div
-        id="nav-links"
+        id={id}
         className=" text-white  gap-5 flex-row-reverse flex-1 self-end hidden lg:flex"
       >
-        <Link to="/Home" className=" hover:text-primary">
+        <Link to="/" className=" hover:text-primary">
           الصفحة الرئيسية
         </Link>
-        <Link to="/aboutUs" className=" hover:text-primary">
+        <a href="#knowUs" className=" hover:text-primary">
           عن الشركة
-        </Link>
-        <Link to="/services" className=" hover:text-primary">
+        </a>
+        <a href="#sectors" className=" hover:text-primary">
           خدماتنا
-        </Link>
-        <Link to="/hiring" className=" hover:text-primary">
+        </a>
+        <Link to="/" className=" hover:text-primary">
           توظيف
         </Link>
-        <Link to="/sales" className=" hover:text-primary">
+        <Link to="/" className=" hover:text-primary">
           عروض
         </Link>
-        <Link to="/contact" className=" hover:text-primary">
+        <a href="#contactUs" className=" hover:text-primary">
           اتصل بنا
-        </Link>
+        </a>
       </div>
-      <MobileMenu />
+      <MobileMenu id={id + "-mobile"} />
     </>
   );
 }

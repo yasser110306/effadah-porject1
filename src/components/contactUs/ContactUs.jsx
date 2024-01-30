@@ -4,7 +4,10 @@ import SeeMore from "../reuse/SeeMore";
 
 function ContactUs() {
   return (
-    <div className="mt-28 container flex items-center px-0 gap-20">
+    <div
+      id="contactUs"
+      className="mt-28 container flex items-center px-0 gap-20"
+    >
       <div className="   flex-1 flex gap-10">
         <img
           src={location}
